@@ -6,6 +6,7 @@
 -->
 <html>
 	<head>
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 		<title>Branden Tam</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -28,15 +29,16 @@
 								<p>aspiring Software Developer | Computer Science Student </p>
 							</div>
 							<ul class="icons">
-								<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/branden-tam-0381731b4/"target = "_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/brandentam" target ="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								
 								<!-- <li><a href="#" class="fa fa-envelope"><span class="label"></span></a></li> -->
 							</ul>
 						</div>
 						<nav>
 							<ul>
 								<!-- <li><a href="#intro">Intro</a></li> -->
-								<li><a href="#projects">Projects</a></li>
+								<li><a href="#projects1">Projects</a></li>
 								<li><a href="#about">About</a></li>
 								<li><a href="#resume">Resume</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
@@ -47,8 +49,72 @@
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Intro -->
-							<article id="projects">
+							<article id="projects1">
+								<nav>
+									<ul>
+										<li><a href="#projects2"><span class="label">To-Do List</span></a></li>
+										<li><a href="#projects3"><span class="label">When2Play</span></a></li>
+										<li><a href="#projects4"><span class="label">Self-serve Kiosk</span></a></li>
+										
+									</ul>
+								</nav>
+							</article>
+
+						<!-- Projects -->
+							<article id="projects2">
+								<h2 class="major">To-Do List</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+							</article>
+
+							<article id="projects3">
+								<h2 class="major"> When2Play Discord Bot</h2> 
+								<a href="https://github.com/brandentam/When2PlayBot" target = "_blank" class = "icon brands fa-github"> &nbsp Repository</a>
+								<span class="image main"><img src="images/w2pdemogif.gif" alt="" /></span>
+								<p>
+									<b>
+										Languages:
+									</b>
+									<i>
+									Javascript
+								</i>
+								</p>
+								<p>
+									<b>
+										Technologies:
+									</b>
+									<i>
+										Node.js
+									</i>
+									
+								</p>
+								<p> When2Play is a Discord Bot I created using the discord.js node module to help friends meet up with each other on time. Use it to set a time to meet, and simply click the thumbs up button to be notified when it's time to play!</p>
+								<hr>
+
+								<p>
+									<b>
+										Challenges and What I've Learned:
+									</b>
+									<p>
+									As this was one of the first projects I've done in Javascript, the first big challenge I ran into was simply trying to code in the language and interact with the Discord API to begin with.
+									But after I started to get going, the implementation of the functionality in Javascript wasn't too hard and I was able to finish it by learning techniques online. My final major challenge was that in order to 
+									upload the code to GitHub, I had to learn how to properly use a gitignore file to hide the config file that I use to hold the bot's token key. This took a bit of time but was manageable by looking through some forums.
+									</p>
+								</p>
+								<p>
+									<b>
+										Improvements For The Future:
+									</b>
+									<ol>
+										<li>Expand functionality to where multiple people can have multiple timers set at once. Currently the bot only supports one time set per person.</li>
+										<li>Support the feature of being able to add a note to the reminder (like a pseudo-personal reminder bot)</li>
+									</ol>
+									
+								</p>
+							</article>
+
+							<article id="projects4">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
@@ -74,18 +140,30 @@
 										 I'm currently working on learning web development through creating projects on my own and with friends! I recently participated in an 8 hour coding competition and placed in the top 10. It was an awesome experience and I hope to be able to participate in many more hackathons/challenges in the future!
 									  </p>
 									  <b>
-										  Currently looking Winter 2020 Co-op positions
+										  Currently looking for Winter 2020 Co-op positions
 									  </b>
 									  <hr>
 									  <p>
+										  <b>
+											  <p>
+												  My Journey
+											  </p>
+										  </b>
 										  Coding is something that I've really started to enjoy and pursue this past year after taking my first introductory functional programming course at UBC. Prior to this, I had spent 2 years at UBC majoring in an integrated program of Physiology and Microbiology, hoping to one day be admitted into Medical School. After a recommendation
-										  to at least try programming before I dived fully into the MCAT, I fell in love with programming and never looked back. In the summer of 2019, I decided to take the leap, drop everything, and spend an entire year learning the entire second year Computer Science curriculum at UBC, hoping for a chance at a successful transfer into the Computer Science program the next year. 
-										  One year later, I was admitted and I knew that the risk I took and the work I put in was worth it. 
+										  to at least try programming before I dived fully into the MCAT, I fell in love with programming and never looked back. In the summer of 2019, I decided to take the leap, drop everything, and spend an entire year taking only courses that belonged to the Computer Science curriculum at UBC, hoping for a chance at a successful transfer into the Computer Science program next April. 
+										  Nearly one year later, I recieved my admission email and I knew that the risk I took and all the work I put in was worth it. 
 
 									  </p>
-
-									  	In my spare time, I like working out, playing videogames, and learning new things! I've recently started my journey in learning the piano, you can check out my current progress<a href=  " https://www.youtube.com/playlist?list=PLGgacOKo-nVRlNQxpVGsAOhaiozWCEkgN" target="_blank"> here </a>
-
+									  <p>
+									  <b>
+										  Beyond CS
+									  </b>
+									</p>
+										  Outside of programming, I work as <i>Vice President</i> of UBC's Hong Kong Students Association, one of UBC's largest social clubs. 
+										  In my spare time, I like working out, playing videogames, and learning new things! 
+										  I've recently started my journey in learning the piano, you can check out my 
+										  current progress here on <a href=  " https://www.youtube.com/playlist?list=PLGgacOKo-nVRlNQxpVGsAOhaiozWCEkgN" target="_blank" class="icon brands fa-youtube"><span class="label"></span></a>
+										  
 							</article>
 
 						<!-- Contact -->
