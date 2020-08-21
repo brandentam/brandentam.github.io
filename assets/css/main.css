@@ -639,8 +639,8 @@ input, select, textarea {
 /* Image */
 
 .face{
-	width: 25%;
-	height: 25%;
+	width: 20%;
+	height: 20%;
 }
 
 	.image {
@@ -652,7 +652,7 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/overlay.png");
+			background-image: url("../../images/banff.jpg");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
