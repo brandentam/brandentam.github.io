@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updateDescriptor baseUrl="">
+  <entry targetMediaFileId="166" updatableVersionMin="" updatableVersionMax="" fileName="auto1_1_macos_1_1.dmg" newVersion="1.1" newMediaFileId="166" fileSize="1986164" md5Sum="c47d4eeab3643838dbe7eef61cc188b6" sha256Sum="f857103220b5d7b96d825bc724e6329f3824ae9a95cab8c74f75a9f7207f3db3" bundledJre="" archive="true" singleBundle="true">
+    <comment language="en" />
+  </entry>
+</updateDescriptor>
