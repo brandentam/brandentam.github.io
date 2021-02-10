@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <updateDescriptor baseUrl="">
-  <entry targetMediaFileId="167" updatableVersionMin="" updatableVersionMax="" fileName="auto1_1_windows-x64_1_1.exe" newVersion="1.1" newMediaFileId="167" fileSize="3365376" md5Sum="3c2f5455f7ce776b463cda266b0b4ed5" sha256Sum="418723b3a25a21e994b9d798c7c08d055b58fc4f5e3bd7cf5eb0f4ee40f1e36f" bundledJre="" archive="false" singleBundle="false">
+  <entry targetMediaFileId="114" updatableVersionMin="" updatableVersionMax="" fileName="auto1_1_windows-x64_1_1.exe" newVersion="1.1" newMediaFileId="114" fileSize="3365888" md5Sum="42e8afc558126797601b59f25df987e7" sha256Sum="c476e9ab2c1a8338efad60c68176a6b1ecdb53873b292767062dd20361cc2c86" bundledJre="" archive="false" singleBundle="false">
     <comment language="en" />
   </entry>
 </updateDescriptor>
